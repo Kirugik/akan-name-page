@@ -29,7 +29,44 @@ submitBtn.addEventListener ("click", (e) => {
     else {
 
     }
-    console.log(dayOfWeek)
+
+
+    //Assigning Akan names
+    var akanName = "";
+    if (dayOfWeek === 1) {
+        (gender === 'male') ? akanName = "Kwadwo": akanName = "Adwoa";
+    }
+
+    else if (dayOfWeek === 2) {
+        (gender === 'male') ? akanName = "Kwabena": akanName = "Abenaa";
+    }
+
+    else if (dayOfWeek === 3) {
+        (gender === 'male') ? akanName = "Kwaku": akanName = "Akua"; 
+    }
+
+    else if (dayOfWeek === 4) {
+        (gender === 'male') ? akanName = "Yaw": akanName = "Yaa";
+    }
+
+    else if (dayOfWeek === 5) {
+        (gender === 'male') ? akanName = "Kofi": akanName = "Afua";
+    }
+
+    else if (dayOfWeek === 6) {
+        (gender === 'male') ? akanName = "Kwame": akanName = "Ama";
+    }
+
+    else if (dayOfWeek === 7) {
+        (gender === 'male') ? akanName = "Kwasi": akanName = "Akosua";
+    }
+
+    else {
+        akanName = "We could not predict your AKan Name."
+    }
+
+    let display = document.getElementById("display");
+    display.innerHTML = `<p>Your Akan name: ${akanName}</p>`
 });
 
 
