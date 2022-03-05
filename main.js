@@ -1,4 +1,5 @@
 let submitBtn = document.getElementById("button");
+let firstName = document.getElementById("firstName");
 
 
 submitBtn.addEventListener ("click", (e) => {
@@ -62,11 +63,11 @@ submitBtn.addEventListener ("click", (e) => {
     }
 
     else {
-        akanName = "We could not predict your AKan Name."
+        akanName = "Sorry, we could not predict your AKan Name."
     }
 
     let display = document.getElementById("display");
-    display.innerHTML = `<p>Your Akan name: ${akanName}</p>`
+    display.innerHTML =`<p>Your Akan name is: ${akanName}</p>`
 });
 
 

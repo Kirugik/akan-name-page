@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Akan Name</title>
 </head>
@@ -11,7 +14,8 @@
     <div>
         <div class="title">
             <h2>Akan Name</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad soluta, iste obcaecati consectetur earum voluptate.</p>
+            <p>Akan names come from a traditional naming system for people from countries such as Togo, Ivory Coast and Ghana. They signify the day one is born. <br> This web application takes your date of birth (year, month, and day), determines the day of the week in which you were born, and displays your Akan name based on your gender.
+            </p>
         </div>
         <div class="content">
             <form class="input-form" id="details">
@@ -23,14 +27,14 @@
                     <label for="dateOfBirth">Date of Birth:</label>
                     <input type="date" value="2022-03-04" id="dateOfBirth">
                 </div>
-                <div>
+                <div class="radio-button">
                     <input type="radio" name="gender" value="male" id="male">
                     <label>Male</label>
                     <input type="radio" name="gender" value="female" id="female">
                     <label>Female</label>
                 </div>
                 <div>
-                    <button type="submit" id="button" style="width: 80px; height: 30px;">Submit</button> 
+                    <button type="submit" id="button">Submit</button> 
                 </div>
                 <div id="display">
                     
