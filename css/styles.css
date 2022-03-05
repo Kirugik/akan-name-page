@@ -1,6 +1,16 @@
 body {
   padding: 0;
   padding: 0;
-  font-size: 15px;
+  font-size: 25px;
   text-align: center;
+  background-color: #950740;
+  color: white;
+}
+
+.input-form {
+  color: #66fcf1;
+  background-color: #0b0c10;
+  margin: auto;
+  padding: 3vw;
+  width: 50%;
 }
