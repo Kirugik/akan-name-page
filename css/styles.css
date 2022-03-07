@@ -17,6 +17,7 @@ body {
   line-height: 2vw;
 }
 
+/* input form styles */
 .input-form {
   color: #66fcf1;
   background-color: #0b0c10;
@@ -51,7 +52,6 @@ body {
 }
 
 /* Responsive design */
-
 @media screen and (max-width: 1200px) {
   .title p {
     line-height: 40px;
