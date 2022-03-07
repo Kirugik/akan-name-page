@@ -74,6 +74,14 @@ body {
   }
 }
 
+@media screen and (max-width: 440px) {
+  .radio-button [type="radio"] {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+}
+
 @media screen and (max-width: 410px) {
   .input-form-details [type="text"],
   [type="date"] {
