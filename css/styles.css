@@ -68,3 +68,14 @@ body {
     width: 200px;
   }
 }
+
+@media screen and (max-width: 410px) {
+  .input-form-details [type="text"],
+  [type="date"] {
+    width: 150px;
+  }
+
+  .input-form-details [type="date"] {
+    width: 150px;
+  }
+}
