@@ -49,3 +49,22 @@ body {
 .input-form button:hover {
   cursor: pointer;
 }
+
+/* Responsive design */
+
+@media screen and (max-width: 890px) {
+  .title p {
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .input-form-details [type="text"],
+  [type="date"] {
+    width: 200px;
+  }
+
+  .input-form-details [type="date"] {
+    width: 200px;
+  }
+}
