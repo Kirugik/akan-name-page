@@ -52,9 +52,14 @@ body {
 
 /* Responsive design */
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 1200px) {
   .title p {
     line-height: 40px;
+  }
+
+  .input-form-details [type="text"],
+  [type="date"] {
+    margin-bottom: 10px;
   }
 }
 
